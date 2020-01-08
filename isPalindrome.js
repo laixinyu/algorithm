@@ -4,5 +4,3 @@ var isPalindrome = function(s) {
     reversedS = filterS.split('').reverse().join('')
     return reversedS === filterS
 };
-let s = "A man, a plan, a canal: Panama";
-isPalindrome(s)
